@@ -23,7 +23,7 @@ function App() {
       <AppBar />
       <div className={s.wrapper}>
         <Routes>
-          <Route path="/" element={<p className={s.title}>😃 Welcome to our service!</p>} />
+          <Route path="/" element={<p className={s.title}>😃 Welcome to our service!!</p>} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/contacts" element={<Contacts />} />
