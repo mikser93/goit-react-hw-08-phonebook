@@ -1,0 +1,32 @@
+.form {
+  width: max-content;
+  padding: 10px 15px 15px 15px;
+  border: 1px solid #112d32;
+  border-radius: 10px;
+  box-shadow: -5px 5px 5px #45717c;
+}
+
+.label {
+  display: flex;
+  font-weight: 500;
+  flex-direction: column;
+  color: #112d32;
+  gap: 3px;
+}
+
+.input {
+  padding: 0 5px;
+  height: 31px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e4b53 !important;
+  border: 1px solid #112d32;
+  border-radius: 8px;
+  background-color: #a6dddc !important;
+  width: 200px;
+}
+
+.input:hover,
+.input:focus {
+  outline: none;
+}

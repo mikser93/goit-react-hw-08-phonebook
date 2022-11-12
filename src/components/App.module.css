@@ -1,0 +1,19 @@
+.body {
+  height: 100vh;
+  background-color: #88bdbc;
+  position: relative;
+}
+
+.wrapper {
+  padding: 20px 30px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 500;
+  position: absolute;
+  color: #112d32;
+  text-shadow: -3px 3px 5px #45717c;
+  left: calc(50% - 285px);
+  top: 50%;
+}

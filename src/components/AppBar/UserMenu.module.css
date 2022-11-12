@@ -1,0 +1,26 @@
+.userMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.userEmail {
+  font-size: 22px;
+  font-weight: 500;
+  color: #112d32;
+  text-shadow: -3px 3px 5px #45717c;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 15px 10px 15px;
+  color: #88bdbc;
+  border: 0;
+  border-radius: 8px;
+  background-color: #112d32;
+  box-shadow: -3px 3px 5px #45717c;
+}
